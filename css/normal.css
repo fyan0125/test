@@ -1,0 +1,119 @@
+/* GLobal Style */
+html {
+	background-color: #288E9d;
+	width: 100vw;
+	height: 100%;
+	
+}
+
+a {
+	cursor: url('/media/pointer.cur'),pointer;
+	text-decoration:none;
+}
+
+h1{
+	margin: 0;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	cursor: url('/media/cursor.cur'), auto;
+	font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	cursor: url(/media/3-3.png);
+}
+
+.title{
+	padding-top: 105px;
+	margin-bottom: 0px;
+	display: flex;
+	justify-content: center;
+}
+
+.bt{
+	border: solid 1px #fff;
+    border-radius: 3px;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video{
+	margin: 0;
+	width: 100%;
+}
+
+img {
+	border-style: none;
+}
+
+.center-word{
+    text-align: center;
+}
+
+/*header*/
+header{
+	margin: 0;
+	height: 80px;
+	background-color: #153e40;
+}
+.logo{
+	width: 150px;
+	padding-left: 30px;
+	padding-top: 15px;
+}
+
+/*footer*/
+footer{
+	background-color: #153e40;
+	position: absolute;
+	width: 100%;
+}
+
+.footer-top{
+	display: flex;
+	flex-direction: column;
+}
+
+.big-logo{
+	margin-top: 50px;
+	margin-left: 36%;
+	width: 27%;
+}
+
+.footer-icon{
+	padding-left: 30%;
+	padding-right:30%;
+	margin-top: 20px;
+	display:flex;
+	justify-content: space-around;
+}
+
+.gif{
+	padding-left: 1%;
+	padding-right:1%;
+	height: 8vw;
+	margin-top: 20px;
+}
+
+.gift{
+	display:flex;
+	justify-content:center;
+	margin-right: 45px;
+}
+
+.avoid{
+	color:white;
+	font-size: x-small;
+	font-weight: lighter;
+}

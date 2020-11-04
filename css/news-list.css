@@ -1,0 +1,47 @@
+body{
+    min-width: 1280px;
+}
+
+.main-area{
+    height: 100%;
+    background-color: #288e9d;
+}
+
+.bt-area{
+    width: 240px;
+    height: 125px;
+    padding-left: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/*news-area*/
+.line{
+    height: 1px;
+    width: 990px;
+}
+
+.news-area{
+    padding-left: 11%;
+    padding-right: 11%;
+    color: #fff;
+}
+
+.news-img{
+    width: 360px;
+}
+
+.news{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.news-word{
+    margin-top: 0;
+    margin-left: 30px;
+    min-width: 600px;
+}

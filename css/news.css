@@ -1,0 +1,40 @@
+
+.main-area{
+    height: 100%;
+    background-color: #288e9d;
+}
+
+.bt-area{
+    width: 360px;
+    height: 125px;
+    padding-left: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.small{
+    font-size: small;
+}
+
+/*news-area*/
+.line{
+    height: 1px;
+    width: 77vw;
+}
+
+.news-area{
+    padding-left: 11%;
+    padding-right: 11%;
+    color: #fff;
+}
+
+.news-title{
+    margin-top: 25px;
+}
+
+.news-img{
+    width: 77vw;
+}
+
+
